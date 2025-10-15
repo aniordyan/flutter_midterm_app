@@ -32,6 +32,8 @@ class _AddHomeworkScreenState extends State<AddHomeworkScreen> {
     });
   }
 
+//VALIDATION
+
   void _submitData() {
     
     if (_subjectController.text.trim().isEmpty ||
